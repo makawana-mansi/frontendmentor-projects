@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(212, 45%, 89%);
+	--Grayish-blue: hsl(220, 15%, 55%);
+	--Dark-blue: hsl(218, 44%, 22%);
+}
+
+@font-face {
+	font-family: 'Outfit';
+	font-display: swap;
+	font-weight: 400 700;
+	src: url('https://fonts.google.com/specimen/Outfit') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: hsl(212, 45%, 89%);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.box {
+	height: 60%;
+	width: 18%;
+	background: hsl(0, 0%, 100%);
+	border-radius: 5%;
+}
+
+img {
+	height: 55%;
+	width: 90%;
+	border-radius: 5%;
+	margin: 5% 5%;
+}
+
+.line {
+	font-size: 15px;
+	margin: 5% 8% 0 8%;
+	font-weight: SemiBold 600;
+	font-family: Outfit, sans-serif;
+
+}
+
+.line1 {
+	font-size: 15px;
+	margin: 5% 10% 0 10%;
+	color: hsl(216, 15%, 48%);
+}
+
+.attribution {
+	font-size: 0.6875rem;
+	text-align: center;
+}
+
+.attribution {
+	margin: 2%;
+	font-size: 0.9vw;
+}
+
+@media (max-width: 800px) {
+
+	html,
+	body {
+		height: 100vmax;
+		width: 200vmax;
+	}
+
+	/* .attribution {
+		margin: 2%;
+		font-size: 2vw;
+	} */
+
+	div {
+		margin-right: 50%;
+	}
+
+	.attribution {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.attribution {
+		margin-right: 53%;
+		font-size: 3vw;
+		margin-top: 0.5;
+	}
+}
