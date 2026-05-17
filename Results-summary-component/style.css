@@ -23,6 +23,10 @@ body {
 
 	border-radius: 20px;
 	margin-left: 8%;
+	position: relative;
+	z-index: 5;
+	left: 10px;
+
 }
 
 .re {
@@ -85,7 +89,7 @@ body {
 	font-Weight: 800;
 	color: hsl(241, 100%, 89%);
 	font-family: 'Hanken Grotesk', sans-serif;
-	margin: 5% 10% 5% 10%;
+	margin: 10px 40px 10px 30px;
 }
 
 .main-po {
@@ -110,7 +114,7 @@ body {
 
 .sum {
 	margin-top: 20px;
-	font-family: 'Hanken Grotesk', sans-serif;
+	font-family: 'HankenGrotesk', sans-serif;
 	font-weight: 800;
 	font-size: 24px;
 	color: hsl(224, 30%, 27%);
@@ -133,8 +137,8 @@ ul {
 	font-size: 15px;
 	border-radius: 10px;
 	padding: 5% 5% 5% 5%;
-	margin-left: -60px;
-	width: 170%;
+	margin-left: -54px;
+	width: 250px;
 	margin-top: -5px;
 
 }
@@ -147,8 +151,8 @@ ul {
 	font-size: 15px;
 	border-radius: 10px;
 	padding: 5% 5% 5% 5%;
-	margin-left: -60px;
-	width: 170%;
+	margin-left: -54px;
+	width: 250px;
 }
 
 .verbal {
@@ -159,8 +163,8 @@ ul {
 	font-size: 15px;
 	border-radius: 10px;
 	padding: 5% 5% 5% 5%;
-	margin-left: -60px;
-	width: 170%;
+	margin-left: -54px;
+	width: 250px;
 }
 
 .visual {
@@ -171,8 +175,8 @@ ul {
 	font-size: 15px;
 	border-radius: 10px;
 	padding: 5% 5% 5% 5%;
-	margin-left: -60px;
-	width: 170%;
+	margin-left: -54px;
+	width: 250px;
 
 }
 
@@ -183,13 +187,13 @@ ul {
 	margin-top: 35px;
 	font-weight: 700;
 	font-family: 'Hanken Grotesk', sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	background-color: hsl(224, 30%, 27%);
 	color: white;
-	padding: 7% 7% 7% 7%;
+	padding: 15px 10px;
 	border-radius: 25px;
-	width: 170%;
-	margin-left: -65px;
+	width: 250px;
+	margin-left: -55px;
 
 }
 
@@ -222,86 +226,91 @@ ul {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
 	.main {
 		display: block;
 		margin-top: 10%;
 	}
 
 	.results {
-		width: 53vw;
-		height: 65vh;
-		padding-top: 2px;
-		background: linear-gradient(hsl(252, 100%, 67%),
-				hsl(241, 81%, 54%));
-
-		border-radius: 20px;
-		margin-left: 8%;
+		width: 50vw;
+		height: 30vh;
+		margin-left: 9%;
+		border-radius: 15px;
 	}
 
 	.summary {
-		background-color: white;
 
-		width: 43vw;
-		height: 70vmax;
-		border-radius: 20px;
-		box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
-		padding: 0% 5% 0 5%;
-		font-weight: 800;
-		margin-left: 8%;
-		margin-top: -20px;
+		width: 40vw;
+		height: 35vmax;
+		margin-left: 59px;
+		margin-top: -30px;
+		position: relative;
+		z-index: 1px;
+		border-radius: 0 0 10px 10px;
+
+	}
+
+	.re {
+		padding-top: 20px;
 	}
 
 	.sev {
-		margin-left: 60px;
+
+		margin-left: 6vmax;
+		padding: 2vmax;
+
+
+	}
+
+	.par {
+		font-size: 15px;
+		font-Weight: 800;
+		color: hsl(241, 100%, 89%);
+		font-family: 'Hanken Grotesk', sans-serif;
+		margin: 5px 8px 5px 14px;
 	}
 
 	.sum {
-		padding: 4vw 0 1vw 3vw;
+		padding: 30px 5px 5px 20px;
 	}
 
 	.reaction {
-		width: 45vw;
-		height: 4vh;
-		margin-left: -18px;
-
-
+		width: 43vw;
+		margin-left: -19px;
 	}
 
 	.memory {
-		width: 45vw;
-		height: 4vh;
-		margin-left: -18px;
+		width: 43vw;
+		margin-left: -19px;
 
 	}
 
 	.verbal {
-		width: 45vw;
-		height: 4vh;
-		margin-left: -18px;
-
+		width: 43vw;
+		margin-left: -19px;
 	}
 
 	.visual {
-		width: 45vw;
-		height: 4vh;
-		margin-left: -18px;
+		width: 43vw;
+		margin-left: -19px;
 
 	}
 
 	.con {
-		width: 43vw;
-		height: 4vh;
-		margin-left: -18px;
-		margin-top: 8vmin;
+		width: 40vw;
+		height: 2vh;
+		margin-left: -13px;
+		margin-top: 3vmin;
 	}
+
 
 	.attribution {
 
 		font-size: 0.6875rem;
 		text-align: center;
-		margin-top: 45vmax;
-		margin-left: -25vmax;
+		margin-top: -33vmax;
+		margin-left: -13vmax;
 		height: 5vmin;
 
 
