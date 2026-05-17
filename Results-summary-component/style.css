@@ -31,7 +31,7 @@ body {
 
 .re {
 	color: hsl(241, 100%, 89%);
-	font-weight: 800;
+	font-weight: 500;
 	font-size: 17px;
 	display: flex;
 	justify-content: center;
@@ -42,20 +42,21 @@ body {
 }
 
 .sev {
-	background: linear-gradient(hsl(256, 72%, 46%, 1),
-			hsl(241, 72%, 46%, 0));
+
+	background: linear-gradient(hsl(256, 72%, 46%),
+			hsla(241, 72%, 46%, 0));
+
 
 
 	font-size: 50px;
 	text-align: center;
 	color: hsl(221, 100%, 96%);
 	border-radius: 50%;
-	background-color: hsla(256, 72%, 46%, 1);
 	padding: 30px;
 	height: 30%;
 	width: 35%;
 	margin-top: 10px;
-	margin: 1% 25% 1% 25%;
+	margin: 1% 25% 1% 22%;
 	font-weight: 700;
 	font-family: 'Hanken Grotesk', sans-serif;
 
@@ -63,7 +64,6 @@ body {
 }
 
 .so {
-
 	display: flex;
 	color: hsl(241, 100%, 89%);
 	font-size: 15px;
@@ -86,10 +86,11 @@ body {
 
 .par {
 	font-size: 15px;
-	font-Weight: 800;
+	font-Weight: 500;
 	color: hsl(241, 100%, 89%);
 	font-family: 'Hanken Grotesk', sans-serif;
 	margin: 10px 40px 10px 30px;
+	text-align: center;
 }
 
 .main-po {
@@ -115,7 +116,7 @@ body {
 .sum {
 	margin-top: 20px;
 	font-family: 'HankenGrotesk', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 24px;
 	color: hsl(224, 30%, 27%);
 	margin-left: -18px;
@@ -123,7 +124,7 @@ body {
 
 ul {
 	display: flex;
-	gap: 90px;
+	gap: 80px;
 	list-style: none;
 	justify-content: center;
 	align-items: center;
@@ -131,52 +132,52 @@ ul {
 
 .reaction {
 	color: hsla(0, 100%, 67%);
-	background-color: hsl(0, 100%, 67%, 0.1);
+	background-color: hsla(0, 55%, 75%, 0.1);
 	font-family: 'Hanken Grotesk', sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	border-radius: 10px;
-	padding: 5% 5% 5% 5%;
-	margin-left: -54px;
-	width: 250px;
+	padding: 9px 5px 9px 5px;
+	margin-left: -45px;
+	width: 240px;
 	margin-top: -5px;
 
 }
 
 .memory {
 	color: hsla(39, 100%, 56%);
-	background-color: hsl(39, 100%, 56%, 0.1);
+	background-color: hsla(39, 65%, 72%, 0.1);
 	font-family: 'Hanken Grotesk', sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	border-radius: 10px;
-	padding: 5% 5% 5% 5%;
-	margin-left: -54px;
-	width: 250px;
+	padding: 9px 5px 9px 5px;
+	margin-left: -45px;
+	width: 240px;
 }
 
 .verbal {
 	color: hsla(166, 100%, 37%);
-	background-color: hsl(166, 100%, 37%, 0.1);
+	background-color: hsla(166, 76%, 66%, 0.1);
 	font-family: 'Hanken Grotesk', sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	border-radius: 10px;
-	padding: 5% 5% 5% 5%;
-	margin-left: -54px;
-	width: 250px;
+	padding: 9px 5px 9px 5px;
+	margin-left: -45px;
+	width: 240px;
 }
 
 .visual {
 	color: hsla(234, 85%, 45%);
-	background-color: hsl(234, 85%, 45%, 0.1);
+	background-color: hsla(234, 54%, 69%, 0.1);
 	font-family: 'Hanken Grotesk', sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	border-radius: 10px;
-	padding: 5% 5% 5% 5%;
-	margin-left: -54px;
-	width: 250px;
+	padding: 9px 5px 9px 5px;
+	margin-left: -45px;
+	width: 240px;
 
 }
 
@@ -190,10 +191,10 @@ ul {
 	font-size: 17px;
 	background-color: hsl(224, 30%, 27%);
 	color: white;
-	padding: 15px 10px;
+	padding: 12px 2px;
 	border-radius: 25px;
 	width: 250px;
-	margin-left: -55px;
+	margin-left: -47px;
 
 }
 
