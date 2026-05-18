@@ -238,27 +238,36 @@ ul {
 	.results {
 		width: 50vw;
 		height: 65vmin;
-		margin-left: 9%;
+		margin-left: 47px;
 		border-radius: 15px;
 	}
 
+	.so {
+		margin-top: -5px;
+	}
+
 	.re {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 	.sev {
-
+		margin-top: -15px;
 		margin-left: 25%;
 		padding: 2vmax;
+		font-size: 35px;
+		padding-bottom: 5px;
+		height: 10vmax;
+		width: 10vmax;
 
 	}
 
 	.par {
-		font-size: 15px;
+		font-size: 13px;
 		font-Weight: 800;
 		color: hsl(241, 100%, 89%);
 		font-family: 'Hanken Grotesk', sans-serif;
 		margin: 5px 5px 5px 5px;
+		align-items: center;
 	}
 
 	.summary {
@@ -278,12 +287,14 @@ ul {
 	}
 
 	.sum {
-		padding: 30px 1px 5px 20px;
+		padding: 20px 1px 5px 20px;
+		font-size: 20px;
 	}
 
 	.reaction {
 		width: 43vw;
 		height: 2.5vh;
+		font-size: 13px;
 		margin-left: -13px;
 		margin-top: -15px;
 		padding: 10px 5px;
@@ -293,6 +304,7 @@ ul {
 		width: 43vw;
 		height: 2.5vh;
 		margin-left: -13px;
+		font-size: 13px;
 		padding: 10px 5px;
 		margin-top: -8px;
 
@@ -301,6 +313,7 @@ ul {
 	.verbal {
 		width: 43vw;
 		height: 2.5vh;
+		font-size: 13px;
 		margin-left: -13px;
 		padding: 10px 5px;
 		margin-top: -8px;
@@ -309,6 +322,7 @@ ul {
 	.visual {
 		width: 43vw;
 		height: 2.5vh;
+		font-size: 13px;
 		margin-left: -13px;
 		padding: 10px 5px;
 		margin-top: -8px;
