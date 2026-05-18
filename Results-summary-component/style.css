@@ -230,26 +230,16 @@ ul {
 @media (max-width: 600px) {
 	.main {
 		display: block;
-		margin-top: 10%;
+		margin-top: 7%;
+		height: 50%;
+		width: 100%;
 	}
 
 	.results {
 		width: 50vw;
-		height: 30vh;
+		height: 65vmin;
 		margin-left: 9%;
 		border-radius: 15px;
-	}
-
-	.summary {
-
-		width: 40vw;
-		height: 35vmax;
-		margin-left: 59px;
-		margin-top: -30px;
-		position: relative;
-		z-index: 1px;
-		border-radius: 0 0 10px 10px;
-
 	}
 
 	.re {
@@ -258,9 +248,8 @@ ul {
 
 	.sev {
 
-		margin-left: 6vmax;
+		margin-left: 25%;
 		padding: 2vmax;
-
 
 	}
 
@@ -269,56 +258,72 @@ ul {
 		font-Weight: 800;
 		color: hsl(241, 100%, 89%);
 		font-family: 'Hanken Grotesk', sans-serif;
-		margin: 5px 8px 5px 14px;
+		margin: 5px 5px 5px 5px;
+	}
+
+	.summary {
+
+		width: 40vw;
+		height: 75vmin;
+		margin-left: 57px;
+		margin-top: -30px;
+		position: relative;
+		z-index: 1px;
+		border-radius: 0 0 10px 10px;
+
+	}
+
+	ul {
+		gap: 40px;
 	}
 
 	.sum {
-		padding: 30px 5px 5px 20px;
+		padding: 30px 1px 5px 20px;
 	}
 
 	.reaction {
 		width: 43vw;
-		margin-left: -19px;
+		height: 2.5vh;
+		margin-left: -13px;
+		margin-top: -15px;
+		padding: 10px 5px;
 	}
 
 	.memory {
 		width: 43vw;
-		margin-left: -19px;
+		height: 2.5vh;
+		margin-left: -13px;
+		padding: 10px 5px;
+		margin-top: -8px;
 
 	}
 
 	.verbal {
 		width: 43vw;
-		margin-left: -19px;
+		height: 2.5vh;
+		margin-left: -13px;
+		padding: 10px 5px;
+		margin-top: -8px;
 	}
 
 	.visual {
 		width: 43vw;
-		margin-left: -19px;
+		height: 2.5vh;
+		margin-left: -13px;
+		padding: 10px 5px;
+		margin-top: -8px;
 
 	}
 
 	.con {
-		width: 40vw;
+		width: 45vw;
 		height: 2vh;
 		margin-left: -13px;
-		margin-top: 3vmin;
+		margin-top: 3.5vmin;
 	}
-
 
 	.attribution {
-
-		font-size: 0.6875rem;
-		text-align: center;
-		margin-top: -33vmax;
-		margin-left: -13vmax;
-		height: 5vmin;
-
-
+		display: none;
 	}
 
-	.attribution a {
-		color: hsl(228, 45%, 44%);
-
-	}
 }
