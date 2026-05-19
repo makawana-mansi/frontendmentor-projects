@@ -232,5 +232,9 @@ button {
         margin-top: 15px;
     }
 
+    .attribution {
+        display: none;
+    }
+
 
 }
