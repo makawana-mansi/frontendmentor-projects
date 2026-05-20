@@ -142,8 +142,9 @@ button {
         background-size: cover;
         background-position: center;
         height: 25vh;
+
         background-color: hsl(225, 100%, 94%);
-        margin-bottom: 10vh;
+        margin-bottom: 35vh;
     }
 
     .box {
