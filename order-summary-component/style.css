@@ -141,10 +141,11 @@ button {
         background-image: url(pattern-background-mobile.svg);
         background-size: cover;
         background-position: center;
-        height: 25vh;
+        height: 20vh;
 
         background-color: hsl(225, 100%, 94%);
-        margin-bottom: 35vh;
+        margin: 30px;
+
     }
 
     .box {
@@ -152,7 +153,7 @@ button {
         height: 84vmax;
         width: 50vmax;
         position: absolute;
-        top: 220%;
+        top: 200%;
         left: 50%;
         border-radius: 18px;
         transform: translate(-50%, -50%);
