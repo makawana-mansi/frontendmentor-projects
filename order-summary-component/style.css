@@ -142,6 +142,7 @@ button {
         background-size: cover;
         background-position: center;
         height: 20vh;
+        margin: 50vmax auto;
 
         background-color: hsl(225, 100%, 94%);
         margin: 30px 30px 30px 30px;
