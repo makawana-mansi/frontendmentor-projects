@@ -134,110 +134,41 @@ button {
     font-size: 15px;
 }
 
-@media (max-width:600px) {
+@media only screen and (max-width:1350px) {
 
-    html,
-    body {
-        background-image: url(pattern-background-mobile.svg);
-        background-size: cover;
-        background-position: center;
-        height: 20vh;
-        margin: 50vmax auto;
+    body,
+    html {
 
-        background-color: hsl(225, 100%, 94%);
-        margin: 30px 30px 30px 30px;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .bg {
+        content: url(pattern-background-mobile.svg);
+        width: 100vw;
+        height: 100vh;
 
     }
 
-    .box {
+    /* .box {
+        margin-top: -190px;
 
-        height: 77vmax;
-        width: 50vmax;
-        position: absolute;
-        top: 200%;
-        left: 50%;
-        border-radius: 18px;
-        transform: translate(-50%, -50%);
-    }
-
-    h2 {
-        font-size: 5vw;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
-
-    .par {
-        font-size: 2.5vw;
-        line-height: 18px;
-    }
-
-
-    ul {
-        list-style: none;
-        display: block;
-        margin-left: -10px;
-        height: 8vmax;
-        width: 30vmax;
-    }
-
-    .first {
-        align-items: 15px;
-        font-weight: 900;
-        font-family: 'Red Hat Display', sans-serif;
-
-    }
-
-    .seco {
-        font-weight: 700;
-        font-family: 'Red Hat Display', sans-serif;
-    }
-
-    .mus {
-        gap: 10vmax;
-        width: 40vmax;
-    }
-
-
-    .music {
-
-        margin-top: -1px;
-        padding: 10px;
-        margin-right: -50px;
-
-        width: 1vmax;
-        height: 3vmax;
-
-    }
-
-    .cha {
-        height: 3vmax;
-        margin-left: -10vmax;
-        font-weight: 900;
-    }
-
-    button {
-        align-items: center;
-        margin-left: 20px;
-        border: none;
-        width: 44vmax;
-        font-weight: 700;
-        font-family: 'Red Hat Display', sans-serif;
-        margin-top: 20px;
-
-    }
-
-    .can {
-        text-align: center;
-        font-weight: 900;
-        font-size: 3vw;
-        font-family: 'Red Hat Display', sans-serif;
-        color: hsl(224, 23%, 55%);
-        margin-top: 15px;
-    }
+    } */
 
     .attribution {
         display: none;
     }
 
+    /* 
+    .box {
 
+        height: 550px;
+        width: 350px;
+        position: absolute;
+        background-color: white;
+        top: 70%;
+        left: 50%;
+        border-radius: 18px;
+        transform: translate(-50%, -50%);
+    } */
 }
