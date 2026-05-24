@@ -15,7 +15,7 @@ body {
     width: 350px;
     position: absolute;
     background-color: white;
-    top: 40%;
+    top: 70%;
     left: 50%;
     border-radius: 18px;
     transform: translate(-50%, -50%);
@@ -150,25 +150,14 @@ button {
 
     }
 
-    /* .box {
-        margin-top: -190px;
+    .box {
+        margin-top: -99px;
 
-    } */
+    }
 
     .attribution {
         display: none;
     }
 
-    /* 
-    .box {
 
-        height: 550px;
-        width: 350px;
-        position: absolute;
-        background-color: white;
-        top: 70%;
-        left: 50%;
-        border-radius: 18px;
-        transform: translate(-50%, -50%);
-    } */
 }
