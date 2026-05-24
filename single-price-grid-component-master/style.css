@@ -184,9 +184,8 @@ button {
         height: 700px;
         width: 315px;
         background-color: white;
-        /* margin: 120px 430px; */
         border-radius: 5px;
-        margin: 120px auto;
+        margin: 10px auto;
     }
 
     .hed {
@@ -221,6 +220,7 @@ button {
     }
 
     .main3 {
+
         border-radius: 0 0 5px 5px;
     }
 
