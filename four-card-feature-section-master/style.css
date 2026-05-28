@@ -181,6 +181,7 @@ body.html {
         margin: 0;
         padding: 0;
         min-height: 100vh;
+        width: 140vw;
     }
 
     .par1 {
@@ -192,33 +193,33 @@ body.html {
     .par2 {
         font-size: 29px;
 
+
     }
 
     .par3 {
 
-
-        width: 250px;
-        margin-left: 36%;
+        margin-left: 30%;
+        width: 247px;
     }
 
     .item1 {
-        margin-left: 251px;
+        margin-left: 116px;
         margin-top: -129px;
 
     }
 
     .item2 {
-        margin-left: -85px;
+        margin-left: -216px;
         margin-top: 390px;
     }
 
     .item3 {
-        margin-left: -81px;
+        margin-left: -211px;
         margin-top: -10px;
     }
 
     .item4 {
-        margin-left: -378px;
+        margin-left: -505px;
         margin-top: 392px;
     }
 
