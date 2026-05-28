@@ -11,6 +11,8 @@
 body.html {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    height: auto;
 
 }
 
@@ -48,7 +50,7 @@ body.html {
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* .item2,
+.item2,
 .item3 {
     display: block;
 
@@ -113,83 +115,113 @@ body.html {
 .img {
     width: 44px;
     margin: 15px 0 0 235px;
-} */
+}
 
-@media (max-width:600px) {
-    .par1 {
-        font-size: 6vw;
-        text-align: center;
-    }
+@media only screen and (max-width:1400px) {
 
-    .par2 {
-        font-size: 6vw;
-        text-align: center;
-        margin-top: -40px;
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
     }
 
     .par3 {
-        width: 50%;
-        text-align: center;
-        margin-left: 25%;
-
+        width: 30vw;
+        margin-left: 447px;
     }
 
-    .box {
-        display: block;
-        height: 50vmax;
-        width: 50vmax;
-        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    .item1 {
+        left: 135px;
     }
 
-
-    .item1,
     .item2,
-    .item3,
+    .item3 {
+        display: block;
+        left: 478px;
+    }
+
     .item4 {
+        left: 782px;
+    }
+}
 
-        height: 20vmax;
-        width: 25vmax;
-        margin: 30px 140px;
+@media only screen and (max-width:1100px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
     }
 
-    .p1 {
-        background-color: var(--color2);
-        height: 3px;
-        border-radius: 10px 10px 0 0;
+    .par3 {
+        width: 35vw;
+        margin-left: 356px;
     }
 
-    .p2 {
-        background-color: var(--color1);
-        height: 3px;
-        border-radius: 10px 10px 0 0;
+    .item1 {
+        left: 54px;
     }
 
-    .p3 {
-        background-color: var(--color3);
-        height: 3px;
-        border-radius: 10px 10px 0 0;
+    .item2,
+    .item3 {
+        left: 393px;
     }
 
-    .p4 {
-        background-color: var(--color4);
-        height: 3px;
-        border-radius: 10px 10px 0 0;
+    .item4 {
+        left: 693px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
     }
 
-    .bold {
-        font-weight: 700;
-        font-size: 5vw;
-        margin: 25px 0 0 20px;
+    .par1 {
+        font-size: 26px;
+        margin-bottom: 17px;
+
     }
 
-    .par4 {
-        margin: 25px 0 0 20px;
-        color: var(--color6);
+    .par2 {
+        font-size: 29px;
+
     }
 
-    .img {
-        width: 5vmax;
-        margin: 15px 0 0 235px;
+    .par3 {
+
+
+        width: 250px;
+        margin-left: 36%;
     }
+
+    .item1 {
+        margin-left: 251px;
+        margin-top: -129px;
+
+    }
+
+    .item2 {
+        margin-left: -85px;
+        margin-top: 390px;
+    }
+
+    .item3 {
+        margin-left: -81px;
+        margin-top: -10px;
+    }
+
+    .item4 {
+        margin-left: -378px;
+        margin-top: 392px;
+    }
+
+
 
 }

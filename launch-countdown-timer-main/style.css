@@ -16,11 +16,16 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-color: var(--slate3);
-    background-image: url(bg-stars.svg);
-    width: 100vmax;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,
+            var(--slate2),
+            var(--slate3)),
 
+        url(bg-stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    overflow-x: hidden;
 }
 
 .hed {
@@ -111,97 +116,4 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%)
-}
-
-@media (max-width:600px) {
-
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        background-color: var(--slate3);
-        background-image: url(bg-stars.svg);
-    }
-
-    .hed {
-        letter-spacing: 5vw;
-        font-size: 10vw;
-        color: var(--white);
-        height: 150vmax;
-        width: 150vmax;
-        text-transform: uppercase;
-        margin-left: 30vmax;
-        text-align: center;
-    }
-
-
-    .main {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 100vmax;
-
-        margin-top: 2vmax;
-    }
-
-    .item {
-        height: 30vh;
-        width: 30vw;
-        /* background-color: var(--slate1); */
-        margin: 5vmax;
-        margin-top: -50vmin;
-        border-radius: 10px;
-        color: var(--pink);
-        font-size: 25vw;
-        padding: 2vmax 10vmax;
-
-    }
-
-    /* p {
-        margin: 30px auto;
-    } */
-
-
-    .day {
-        /* text-transform: uppercase;
-        font-family: var(--fmly);
-        font-weight: var(--whgt);
-        color: var(--lev); */
-        margin-top: 12vmin;
-        letter-spacing: 2vw;
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    .img1 {
-        margin-top: -100vmax;
-        width: 200vmax;
-        height: 300vmax;
-
-    }
-
-    img {
-        margin-top: -520vh;
-
-        margin-top: 150vmax;
-
-    }
-
-    .fac {
-        width: 15vw;
-        height: 10vh;
-        margin-left: 15vmax;
-        position: relative;
-        top: -185vmax;
-        left: 60vmax;
-        cursor: pointer;
-    }
-
-    .fac:hover {
-        background-color: var(--pink);
-        color: var(--pink);
-    }
-
-
 }
