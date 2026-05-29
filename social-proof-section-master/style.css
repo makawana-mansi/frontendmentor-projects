@@ -100,8 +100,6 @@ img {
 
 }
 
-
-
 .div3 {
 
     display: flex;
@@ -168,7 +166,7 @@ img {
 
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1000px) {
 
     html,
     body {
@@ -176,12 +174,68 @@ img {
     }
 
     .par1 {
-        margin-left: -112px;
+
+        margin-top: -2px;
+        font-size: 31px;
+        margin-left: 20px;
     }
 
     .par2 {
-        margin-left: -117px;
-        width: 33vw;
+        align-items: center;
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 83px;
+        margin-left: -401px;
+    }
+
+    .div {
+        padding: 20px;
+        width: 20px;
+    }
+
+    .div {
+        padding: 13px;
+        width: 23vw;
+    }
+
+    .par4 {
+        margin-top: -6px;
+        margin-left: 103px;
+    }
+
+    .par5 {
+        margin-left: 111px;
+        margin-top: -6px;
+    }
+
+    .box {
+        display: block;
+
+    }
+
+    .item1 {
+        margin-left: -27%;
+        margin-top: 44%;
+    }
+
+    .item2 {
+        margin-left: -33%;
+        margin-top: 68%;
+    }
+
+    .item3 {
+        margin-top: 92%;
+        margin-left: -33%;
+    }
+
+    /* 
+    .par2 {
+        align-items: center;
     }
 
     .box {
@@ -191,27 +245,4 @@ img {
     .item1 {
         margin-left: -846px;
     }
-}
-
-/* @media only screen and (max-width:100px) {
-
-    html,
-    body {
-        background-image: url(bg-pattern-top-mobile.svg),
-            url(bg-pattern-bottom-mobile.svg);
-        background-repeat: no-repeat, no-repeat;
-        background-position: top left, bottom right;
-        background-size: 400px, 500px;
-        min-height: 100vh;
-        min-width: 100vw;
-    }
-
-    .par1 {
-        align-items: center;
-    }
-
-    .par2 {
-        align-items: center;
-    } */
-
-}
+} */

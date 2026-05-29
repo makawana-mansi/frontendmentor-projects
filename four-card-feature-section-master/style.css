@@ -181,48 +181,43 @@ body.html {
         margin: 0;
         padding: 0;
         min-height: 100vh;
-        width: 140vw;
+
     }
 
     .par1 {
         font-size: 26px;
         margin-bottom: 17px;
+        margin-left: 3%;
 
     }
 
     .par2 {
         font-size: 29px;
-
-
+        margin-left: 3%;
     }
 
     .par3 {
 
-        margin-left: 21%;
-        width: 247px;
+        position: static;
+        width: 250px;
+        margin: 27px auto;
+        margin-top: -18px;
+    }
+
+    .main-co {
+        grid-template-columns: 1fr;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        position: static;
+        width: 300px;
+        margin: 27px auto;
     }
 
     .item1 {
-        margin-left: 15px;
-        margin-top: -129px;
-
+        margin-top: 35px;
     }
-
-    .item2 {
-        margin-left: -321px;
-        margin-top: 390px;
-    }
-
-    .item3 {
-        margin-left: -316px;
-        margin-top: -10px;
-    }
-
-    .item4 {
-        margin-left: -610px;
-        margin-top: 392px;
-    }
-
-
-
 }
