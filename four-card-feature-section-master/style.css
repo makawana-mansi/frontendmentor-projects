@@ -21,19 +21,21 @@ body.html {
     text-align: center;
     margin-top: 70px;
     color: var(--color6);
+    margin-left: 21px;
 }
 
 .par2 {
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -28px;
+    margin-left: 20px;
 }
 
 .par3 {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: -15px;
-    margin-left: 550px;
-    margin-right: 520px;
+    margin-left: 533px;
+    margin-right: 505px;
     text-align: center;
     color: var(--color6);
 }
