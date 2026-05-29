@@ -52,6 +52,14 @@ body.html {
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
+.item1 {
+
+    top: 150px;
+    height: 200px;
+    width: 300px;
+    left: 247px;
+}
+
 .item2,
 .item3 {
     display: block;
@@ -59,24 +67,20 @@ body.html {
     left: 605px;
     height: 200px;
     width: 300px;
-    margin: 40px 20px;
+    margin: 40px 4px;
     top: -210px;
 }
 
-.item1 {
-
-    top: 150px;
-    height: 200px;
-    width: 300px;
-    left: 260px;
+.item3 {
+    margin-top: -15px;
 }
 
 .item4 {
 
     height: 200px;
     width: 300px;
-    left: 910px;
-    top: -570px
+    left: 890px;
+    top: -562px;
 }
 
 .p1 {
