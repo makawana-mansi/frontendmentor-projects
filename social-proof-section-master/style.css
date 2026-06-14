@@ -6,15 +6,13 @@
     --color3: hsl(303, 10%, 53%);
     --color4: hsl(300, 24%, 96%);
     --color5: hsl(0, 0%, 100%);
-}
-
-:root {
     --fmly: 'League Spartan', sans-serif;
     --wght1: 400;
     --wght2: 500;
     --wght3: 700;
-
 }
+
+
 
 html,
 body {
@@ -31,6 +29,7 @@ body {
 .main {
     display: flex;
     margin: 50px auto;
+
 }
 
 .div1 {
@@ -70,7 +69,6 @@ body {
 .div {
     background-color: var(--color4);
     padding: 10px;
-    padding-left: -10px;
     border-radius: 8px;
     font-size: 13px;
     width: 307px;
@@ -163,86 +161,89 @@ img {
     font-size: 14px;
     line-height: 18px;
     padding: 16px 18px 5px 23px;
-
 }
 
 @media only screen and (max-width:1000px) {
 
-    html,
-    body {
-        min-height: 100vh;
-    }
-
-    .par1 {
-
-        margin-top: -2px;
-        font-size: 31px;
-        margin-left: 20px;
-    }
-
-    .par2 {
+    .main {
+        flex-direction: column;
         align-items: center;
+    }
+
+    .div1 {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
     }
 
     .div2 {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .par1 {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .par2 {
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .par3,
+    .par4,
+    .par5 {
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .div {
+        width: 60%;
+        text-align: center;
+        padding: 10px 10px;
+        display: block;
+    }
+
+    .div img {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .stars {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .rating-text {
+        display: block;
+    }
+
+    .div3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin-top: 83px;
-        margin-left: -401px;
-    }
-
-    .div {
-        padding: 20px;
-        width: 20px;
-    }
-
-    .div {
-        padding: 13px;
-        width: 23vw;
-    }
-
-    .par4 {
-        margin-top: -6px;
-        margin-left: 103px;
-    }
-
-    .par5 {
-        margin-left: 111px;
-        margin-top: -6px;
-    }
-
-    .box {
-        display: block;
-
+        margin: 20px 0;
     }
 
     .item1 {
-        margin-left: -27%;
-        margin-top: 44%;
+        margin-left: 0;
     }
 
-    .item2 {
-        margin-left: -33%;
-        margin-top: 68%;
-    }
-
+    .item1,
+    .item2,
     .item3 {
-        margin-top: 92%;
-        margin-left: -33%;
-    }
-
-    /* 
-    .par2 {
-        align-items: center;
+        margin: 10px 0;
     }
 
     .box {
-        padding-left: 5px;
+        width: 85%;
+        max-width: 330px;
+        height: auto;
     }
-
-    .item1 {
-        margin-left: -846px;
-    }
-} */
+}

@@ -237,7 +237,7 @@ body.html {
         position: static;
         width: 250px;
         margin: 27px auto;
-        margin-top: -18px;
+        margin: 10px -455px auto;
     }
 
     .main-co {
