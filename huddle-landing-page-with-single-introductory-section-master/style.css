@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --color1: hsl(257, 40%, 49%);
+    --color2: hsl(300, 69%, 71%);
+    --wght1: 400;
+    --wght2: 600;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color1);
+    background-image: url('bg-desktop.svg');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: var(--font1);
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.div1,
+.div2 {
+    width: 42%;
+}
+
+.div1 img {
+    width: 126%;
+    margin-left: -152px;
+}
+
+.par1 {
+    color: white;
+    font-size: 40px;
+    font-weight: var(--wght2);
+    margin-bottom: 20px;
+}
+
+.par2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.par3 {
+    background-color: white;
+    padding: 13px 50px;
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    color: var(--color1);
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.par3:hover {
+    background-color: var(--color2);
+    color: white;
+}
+
+.icon {
+    display: flex;
+    gap: 5px;
+    color: white;
+    margin-bottom: -20px;
+    margin-left: 78%;
+}
+
+i {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 9px 9px;
+    margin: -22px 0 0 3px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    .cont {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div1 {
+        width: 80%;
+        margin-left: 0;
+
+    }
+
+    .div1 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .div2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .par1 {
+        font-size: 30px;
+    }
+
+    .par2 {
+        width: 91%;
+    }
+
+    .par3 {
+        width: auto;
+        display: inline-block;
+    }
+
+    .icon {
+        margin: 40px 0 0 0;
+        justify-content: center;
+    }
+}
