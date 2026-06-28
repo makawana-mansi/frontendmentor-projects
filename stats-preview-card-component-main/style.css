@@ -96,6 +96,18 @@ p {
     opacity: 0.4;
 }
 
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (max-width:750px) {
     .desktop_img {
         display: none;
