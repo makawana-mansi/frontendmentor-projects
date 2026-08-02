@@ -15,11 +15,11 @@ This is my solution to a Frontend Mentor challenge. I built this project using H
 
 ## 🔗 Live Demo
 
-https://your-live-link.netlify.app
+https://lnkd.in/dJCf3w57
 
 ## 💻 GitHub Repository
 
-https://github.com/yourusername/repository-name
+https://lnkd.in/dayBNnsc
 
 ## 🎯 What I Learned
 
