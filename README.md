@@ -9,27 +9,23 @@ This is my solution to a Frontend Mentor challenge. I built this project using H
 - Flexbox
 - Responsive Design
 
-## 📸 Screenshot
-
-(Add a screenshot of your project here)
-
 ## 🔗 Live Demo
 
-https://lnkd.in/dJCf3w57
+https://makawana-mansi.github.io/frontend-projects/
 
 ## 💻 GitHub Repository
 
-https://lnkd.in/dayBNnsc
+https://github.com/makawana-mansi/frontend-projects
 
 ## 🎯 What I Learned
 
 - Improved HTML structure
 - Better CSS styling
 - Responsive layouts using Flexbox
+- Improved responsive design skills
 
 ## 👩‍💻 Author
 
 **Mansi Makawana**
 
-- GitHub:https://github.com/makawana-mansi
-- Frontend Mentor:https://lnkd.in/dJCf3w57
+- GitHub: https://github.com/makawana-mansi
