@@ -11,11 +11,11 @@ This is my solution to a Frontend Mentor challenge. I built this project using H
 
 ## 🔗 Live Demo
 
-https://makawana-mansi.github.io/frontend-projects/
+https://makawana-mansi.github.io/frontendmentor-projects/
 
 ## 💻 GitHub Repository
 
-https://github.com/makawana-mansi/frontend-projects
+https://github.com/makawana-mansi/frontendmentor-projects
 
 ## 🎯 What I Learned
 
